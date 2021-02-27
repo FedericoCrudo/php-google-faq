@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.text_color{
+    color: rgb(100,99,104);
+}
+a{
+  color: #3367D6;  
+}
+
+body{
+    font-family: 'Product Sans',Arial,sans-serif;
+}
+header{
+    border-bottom: 1px solid #CBCBCB;
+}
+.container{
+    max-width: 978px;
+    margin: auto;
+    height: 100%;
+
+}
+.header-top, .header-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   height: 60px;
+   margin: 0 25px;
+}
+.header-top .img, .account{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+.header-top .img a:hover{
+    text-decoration: underline;
+}
+.account img{
+    width: 25px;
+}
+.account  .user{
+    width: 32px;
+    border-radius: 50%;
+}
+.header-bottom{
+    justify-content: flex-start;
+    height: auto;
+}
+.header-bottom ul{
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+
+}
+.header-bottom ul li, footer ul li a{
+    margin-right: 30px;
+    font-size: 15px;
+    height: 40px;
+    font-weight: bold;
+}.header-bottom ul li:hover{
+   border-bottom: 2px solid #3367D6;
+}
+.header-bottom a{
+    color: rgb(100,99,104);
+  
+}
+.border_check{
+    border-bottom: 2px solid #3367D6;
+}
+.color_blue{
+    color: #3367D6;
+}
+.questions{
+    margin-top: 80px;
+}
+.faq{
+    margin-top: 50px;
+}
+.faq h2{
+    font-weight: none;
+    line-height: 35px;
+}
+.faq ul li{
+    margin-top: 30px;
+    font-size: 14px;
+}
+.faq ul li {
+    line-height: 24px;
+}
+footer{
+    margin-top:40px ;
+    height: 70px;
+    background-color: #F5F5F5;
+}
+footer .container .wrapp{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .container .wrapp ul{
+    display: flex;
+}
+footer .container .wrapp ul{
+    display: flex;
+}
+footer .container .wrapp ul li a{
+    color: rgb(100,99,104);
+    
+}
+
+
